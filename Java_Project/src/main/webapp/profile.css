@@ -1,0 +1,58 @@
+/* Profile Page CSS */
+.profileview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; }
+
+.profile1 {
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    background-color: #f9f9f9; 
+}
+
+.profile1 img {
+    width: 200px; 
+    height: auto; 
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.atab a {
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 8px 12px; 
+    display: inline-block; 
+}
+
+.atab a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 600px) {
+    .profile1{
+        width: 80%; 
+    }
+
+    .profile1 img {
+        width: 100%; 
+        max-width: 200px; 
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .profile1 {
+        padding: 10px;
+    }
+
+    .atab a {
+        padding: 6px 10px; 
+        text-align:center;}
+}

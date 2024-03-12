@@ -1,0 +1,259 @@
+
+
+.heading {
+    font-size: 1.2rem;
+    margin: 0 0 10px;
+}
+header img{margin:0;}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; 
+    margin-left:20px;
+    margin-right:1000px;
+}
+
+nav ul li {
+    margin-right: 10px; 
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.Image img{width:50px;
+height:50px;
+margin-right:10px;
+margin-left:10px;
+ border-radius:50%;}
+.Image{border-radius:50%;
+}
+.Image1 img{width:20px;
+height:20px;
+margin-right:10px;
+margin-left:10px;
+ border-radius:50%;}
+ .circular-image img{border-radius:50%;}
+ .profile img{border-radius:20%;}
+ 
+.Image1{border-radius:50%;}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 80px;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header h3 {
+    margin: 0; 
+    margin-left:auto;
+    margin-right:10px;
+}
+
+
+.item a{text-decoration:none;}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 800px;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        justify-content: center; 
+    }
+}
+
+.dropbtn {
+  cursor: pointer;
+}
+
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+ .form-container {
+    display: none;
+    
+    background-color: grey;
+    z-index: 1001;
+    width: 200px;
+    color:black;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 40px; 
+    right: 0; 
+}
+.form-container a{text-decoration:none;
+                 padding:3px;
+                 background-color: black;
+                 color:white;
+                 font-size:16px;
+                 box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+                  transform: scale(1);
+    transition: transform 0.3s ease;}
+.form-container a:hover{background-color:white;
+                        color:black;
+                        font-size:19px;
+                        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+                        transform: scale(1.1);}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.heading {
+    font-size: 1.2rem;
+    margin: 0 0 10px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: white;
+    background-color: #333;
+    height: 80px;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+main {
+    margin-top: 120px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.profile img {
+    width: 100%;
+    height: auto;
+    display: block;
+   
+}
+
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    header h3 {
+        margin-right: 0;
+    }
+    .profile-container {
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    .form-container{
+                   width:100px;}
+                   .dropbtn {
+  cursor: pointer;
+}
+a{text-decoration:none;}
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 6px;
+  font-size: 11px;
+  border: none;
+}
+                   
+}
+
