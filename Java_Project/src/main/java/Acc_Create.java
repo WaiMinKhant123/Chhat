@@ -52,9 +52,9 @@ public class Acc_Create extends HttpServlet {
                 }
                 int i = ps.executeUpdate();
                 if (i > 0) {
-                    response.sendRedirect("Login_form.html");
+                    response.sendRedirect("index.html");
                 } else {
-                    response.sendRedirect("Login_form.html");
+                    response.sendRedirect("index.html");
                 }
             }
             rs.close();
