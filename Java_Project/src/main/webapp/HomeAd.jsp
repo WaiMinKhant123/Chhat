@@ -16,7 +16,7 @@
             <li><a href="addAD.jsp"> </a></li>
              <li><a href="mananageAD.jsp">Manage Posts</a></li>
             <li><a href="seeMember.jsp">See Users</a></li>
-            <li><a href="Login_form.html">Logout</a></li>
+            <li><a href="index.html">Logout</a></li>
                 
         </ul>
     </nav>
