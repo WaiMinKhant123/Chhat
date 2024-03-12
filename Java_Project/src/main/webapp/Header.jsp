@@ -72,7 +72,7 @@ try {
                 <a href="add.jsp">Add Posts</a><br><br>
                 <a href="managenews.jsp">Manage Posts</a> <br><br>
                 <a href="editinfo.jsp">Edit Info</a> <br><br>              
-                <a href="Login_form.html">Log Out</a> 
+                <a href="index.html">Log Out</a> 
             </form>
         </div>
     <% } else { %>
