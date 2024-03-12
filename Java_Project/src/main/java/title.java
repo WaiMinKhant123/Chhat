@@ -48,7 +48,7 @@ public class title extends HttpServlet {
            ps3.executeUpdate();
           
           
-            response.sendRedirect("Login_form.html");
+            response.sendRedirect("index.html");
         } catch (Exception e) {
             e.printStackTrace();
             response.getWriter().println("Error: " + e.getMessage());
